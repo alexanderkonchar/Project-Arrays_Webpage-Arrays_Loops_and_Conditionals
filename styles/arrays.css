@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*noinspection CssUnknownTarget*/
+@import url(https://fonts.bunny.net/css?family=roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+
+   Arrays Style Sheet
+   Author: Alex Konchar
+   Date: 3/2/2023
+
+   Filename: arrays.css
+*/
+
+html {
+    background: rgba(193, 180, 219, 0.56);
+    font-family: 'Roboto', sans-serif;
+}
+
+section, td {
+    border: black solid 1px;
+    margin: 3%;
+    padding: 3%;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px black;
+}
